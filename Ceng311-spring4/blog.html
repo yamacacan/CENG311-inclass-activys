@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Ahmet Can Yamaç</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- jQuery Core -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- jQuery UI -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ahmet Can Yamaç</h1>
+            <p class="tagline">Web Developer & Technical Writer</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="page-header">
+        <div class="container">
+            <h2>Blog</h2>
+        </div>
+    </div>
+    
+    <main class="container">
+        <section class="blog-intro">
+            <p>Welcome to my blog where I share my thoughts, experiences, and insights about web development, programming, and technology trends.</p>
+        </section>
+        
+        <section class="blog-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div id="blog-posts-container">
+                            <!-- Blog posts will be loaded here via AJAX -->
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="weather-container">
+                            <!-- Weather information will be loaded here via AJAX -->
+                        </div>
+                        <button id="refresh-weather" class="btn btn-primary mt-3">Refresh Weather</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="blog-pagination">
+                <a href="#" class="pagination-prev disabled">Previous</a>
+                <a href="#" class="pagination-number active">1</a>
+                <a href="#" class="pagination-number">2</a>
+                <a href="#" class="pagination-number">3</a>
+                <a href="#" class="pagination-next">Next</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Ahmet Can Yamaç</h3>
+                    <p>Web Developer & Technical Writer</p>
+                    <p>Ankara, Turkey</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">GitHub</a>
+                        <a href="#" class="social-icon">LinkedIn</a>
+                        <a href="#" class="social-icon">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Ahmet Can Yamaç. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 

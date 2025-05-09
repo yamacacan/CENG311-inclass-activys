@@ -1,0 +1,22 @@
+{
+    "posts": [
+        {
+            "title": "Getting Started with Web Development",
+            "date": "2024-03-15",
+            "excerpt": "Learn the fundamentals of web development and start your journey as a developer.",
+            "link": "blog/web-development-basics.html"
+        },
+        {
+            "title": "The Future of AI in Software Development",
+            "date": "2024-03-10",
+            "excerpt": "Exploring how artificial intelligence is transforming the software development landscape.",
+            "link": "blog/ai-software-development.html"
+        },
+        {
+            "title": "Best Practices for Responsive Design",
+            "date": "2024-03-05",
+            "excerpt": "Essential tips and techniques for creating responsive and mobile-friendly websites.",
+            "link": "blog/responsive-design.html"
+        }
+    ]
+} 
